@@ -1,0 +1,223 @@
+/* Import font (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Common css */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.common-btn{
+    background: #E76F51;
+}
+.common-btn:hover{
+    background:#241F21;
+}
+.common-btn-outline{
+    color: #E76F51;
+    border: 2px solid #E76F51;
+}
+.common-btn-outline:hover{
+    border: 2px solid #e76f5100;
+    color: white;
+    background:#E76F51;
+}
+
+/* header part starts below */
+    /* banner part */
+header {
+    background: #264653;
+}
+header .navbar-bg{
+    background: #264653;
+}
+header .banner-section{
+    padding-top: 82px;
+}
+header .banner-section .banner-text p{
+    color: #E0E0E0;
+    font-size: 16;
+    font-weight: 300;
+    line-height: 24px;
+}
+header .banner-section .banner-text .modal-bg{
+    background: #E76F51;
+}
+header .banner-section .banner-text .modal-title{
+    letter-spacing: 3px;
+}
+/* header part ends here */
+
+/* Fetured section starts below */
+main .fetured-section{
+    margin-top: 82px;
+}
+main .fetured-section .fetured-text p{
+    color: #E76F51;
+    position: relative;
+}
+main .fetured-section .fetured-text p:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50%;
+    background: #E76F51;
+    left: 25%;
+    bottom: -10px;
+}
+main .fetured-section .fetured-content{
+    margin-top: 82px;
+}
+main .fetured-section .fetured-content img{
+    transition: all linear .3s;
+}
+main .fetured-section .fetured-content img:hover{
+    transform: scale(1.1);
+}
+main .fetured-section .fetured-content .gray-scale img{
+    filter: grayscale(100%);
+}
+/* Fetured section ends here */
+
+/* latest news starts below */
+.latest-news{
+    margin-top: 82px;
+}
+.latest-news .latest-news-items h3{
+    font-weight: 600;
+    color: #18191F;
+}
+.latest-news .latest-news-items p{
+    color: #6C6C6C;
+    line-height: 32px;
+}
+/* latest section ends here */
+    /* --------------------------------- */
+/* client section starts below */
+.client-section{
+    margin-top: 82px;
+}
+.client-section .client-section-header h1{
+    color: #0A0826;
+    font-weight: 600;
+}
+.client-section .client-section-header span{
+    color: #E76F51;
+}
+.client-section .client-section-items .card .card-body p{
+    color: #6C6C6C;
+    line-height: 26px;
+}
+.client-section .client-section-items .card .card-body ul li{
+    color: #E77C40;
+}
+.client-section .client-section-items .card .card-body a{
+    color: #23A6F0;
+    transition: all linear 0.3s;
+}
+.client-section .client-section-items .card .card-body a:hover{
+    color: black;
+}
+.client-section .client-section-items .card .card-body p.client-profession{
+    color: #252B42;
+    font-weight: 500;
+}
+/* client section ends here */
+    /* ------------------------------ */
+/* FAQ section starts below */
+.faq-section{
+    margin-top: 82px;
+}
+.faq-section .faq-heading h1{
+    color: #0D0925;
+    font-weight: 600;
+}
+.faq-section .faq-heading span{
+    color: #E76F51;
+}
+/* FAQ section ends here */
+    /* --------------------------- */
+/* latest collections starts here */
+.latest-collection{
+    margin-top: 82px;
+}
+.latest-collection .collection-video{
+    height: 500px;
+}
+.latest-collection .latest-collection-heading span{
+    color: #E76F51;
+}
+.latest-collection iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* latest collections ends here */
+
+    /* ---------------------------------- */
+/* contact section stsrts below */
+.contact-section{
+    margin-top: 82px;
+}
+.contact-section h3{
+    color: #E76F51;
+}
+.contact-section .social-icon i{
+    font-size: 20px;
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    transition: all linear 0.3s;
+}
+.contact-section .social-icon i:hover{
+    color: white;
+    background: #E76F51;
+}
+.contact-section form input.input-bg{
+    background: gainsboro;
+}
+.contact-section form input.submit-bg{
+    background: #E76F51;
+    border: #E76F51;
+}
+.contact-section form textarea{
+    background: gainsboro;
+}
+/* contact section ends here */
+    /* ---------------------------------- */
+/* footer section starts below */
+.footer-section{
+     margin-top: 82px;
+}
+.footer-section .app-section .apple-store {
+    width: 165px;
+    background: black;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.footer-section .app-section .apple-store:hover{
+    background: white;
+    color: black;
+}
+.footer-section .app-section i{
+    font-size: 30px;
+    padding-right: 5px;
+}
+.footer-section .app-section .apple-store p{
+    font-size: 10px;
+}
+/* footer section starts below */
+footer{
+    background: black;
+}
+footer .footer-section ul li a{
+    color: white;
+    transition: all linear 0.3s;
+}
+footer .footer-section ul li a:hover{
+    color: #E76F51;
+}
+/* footer section ends here */
